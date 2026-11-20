@@ -33,7 +33,7 @@ let package = Package(
         // Switch back to `from:` once upstream really fixes #3647.
         .package(url: "https://github.com/apple/swift-nio.git", exact: "2.105.0"),
         // Keep a floating version range so Renovate can raise the minimum.
-        .package(url: "https://github.com/apple/swift-crypto.git", from: "5.1.1"),
+        .package(url: "https://github.com/apple/swift-crypto.git", from: "5.1.2"),
     ],
     targets: [
         .target(
