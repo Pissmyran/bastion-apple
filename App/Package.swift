@@ -10,7 +10,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/migueldeicaza/SwiftTerm.git",
-            exact: "1.99.3"
+            exact: "1.99.4"
         ),
     ]
 )

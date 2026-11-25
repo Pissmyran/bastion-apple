@@ -31,9 +31,9 @@ let package = Package(
         // #3647 is fixed (the Renovate bump in PR #153 brought back exactly the bug
         // PR #149 fixed). Checked 2026-08-11: #3647 still open.
         // Switch back to `from:` once upstream really fixes #3647.
-        .package(url: "https://github.com/apple/swift-nio.git", exact: "2.105.1"),
+        .package(url: "https://github.com/apple/swift-nio.git", exact: "2.105.2"),
         // Keep a floating version range so Renovate can raise the minimum.
-        .package(url: "https://github.com/apple/swift-crypto.git", from: "5.1.2"),
+        .package(url: "https://github.com/apple/swift-crypto.git", from: "5.2.0"),
     ],
     targets: [
         .target(
